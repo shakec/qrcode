@@ -1,0 +1,41 @@
+:root {
+    --bkgColor: hsl(212, 45%, 89%);
+    --cardColor: hsl(0, 0%, 100%);
+    --headerColor: hsl(218, 44%, 22%);
+    --bodyColor: hsl(216, 15%, 48%);
+}
+
+* {
+    font-family: Outfit;
+}
+
+body {
+    background-color:  var(--bkgColor);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color: var(--cardColor);
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.qrImg {
+    width: auto;
+    height: 288px;
+}
+
+.qrImg img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
